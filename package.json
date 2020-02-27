@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DB_CONN='whatever' DB_LOCATION='us' SERVER_LOCATION='us-east' node ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -11,6 +11,8 @@
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "luxon": "^1.22.0",
+    "mongodb": "^3.5.4",
     "morgan": "~1.9.1"
   }
 }
