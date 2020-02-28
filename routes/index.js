@@ -1,14 +1,14 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express')
+var router = express.Router()
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', function (req, res, next) {
+  res.render('index', { title: 'Express' })
+})
 
 /* HEAD for status */
-router.head('/', function(req, res, next) {
-  res.status(200).send('OK');
-});
+router.head('/', function (req, res, next) {
+  res.status(200).send('OK')
+})
 
-module.exports = router;
+module.exports = router
