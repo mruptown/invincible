@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "lint": "standard --fix",
+    "test": "nyc --reporter=lcov tape test/*.test.js | tap-spec",
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "avneet-anf-hackathon": "^1.0.1",
+    "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "hbs": "~4.0.4",
@@ -14,5 +17,11 @@
     "luxon": "^1.22.0",
     "mongodb": "^3.5.4",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0"
   }
 }
