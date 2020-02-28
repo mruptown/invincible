@@ -75,8 +75,6 @@ async function getMeEverything() {
 
 router.get('/', async function(req, res, next) {
   const everything = await getMeEverything();
-  // Orders is an array of all orders
-  // profit is the total profit
   const {
     orders,
     profit,
