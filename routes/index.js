@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* HEAD for status */
+router.head('/', function(req, res, next) {
+  res.status(200).send('OK');
+});
+
 module.exports = router;
