@@ -13,14 +13,15 @@ router.get('/', async function (req, res, next) {
 
   const SERVER_LOCATION = getServerLocation(req.cookies)
 
-  console.log(req)
+  const reqString = JSON.stringify(req)
 
   res.render('profit', {
     title: 'Profits',
     SERVER_LOCATION,
     orders,
     profit,
-    previousProfit
+    previousProfit,
+    req
   })
 })
 
