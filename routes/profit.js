@@ -12,7 +12,7 @@ router.get('/', async function (req, res, next) {
   } = everything
 
   const SERVER_LOCATION = getServerLocation(req.headers.host)
-  const FAVORITE_ANIMAL = null
+  const FAVORITE_ANIMAL = 'cobra'
 
   res.render('profit', {
     title: 'Profits',
