@@ -20,7 +20,16 @@
       <p>Total Profit: ${{profit}}</p>
       <p>Previous Profit: ${{previousProfit}}</p>
       <p>Orders: {{orders.length}}</p>
-      <h3 class="h3 order-headline">Orders</h3>
+    </div>
+  </div>
+</div>
+
+<div class="data-card" data-variant="boxed" data-header>
+  <div class="data-card-header">
+    <h3 class="h3">Orders</h3>
+  </div>
+  <div class="data-card-content">
+    <div>
       {{#each orders}}
         <div class="order-card">
           <p>Order ID: #{{orderid}}</p>
