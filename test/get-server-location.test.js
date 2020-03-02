@@ -9,27 +9,21 @@ test('The getServerLocation function', t => {
   )
 
   t.equal(
-    getServerLocation({ io: 'x' }),
+    getServerLocation('whatever'),
     'UNKNOWN',
-    'returns "UNKNOWN" if the cookies do not contain an invincible-app key.'
+    'should be "UNKNOWN" if a host is not recognized.'
   )
 
   t.equal(
-    getServerLocation({
-      io: 'x',
-      'invincible-app-jwiegm-eastus.azurewebsites.net': 'y'
-    }),
+    getServerLocation('invincible-app-jwiegm-eastus.azurewebsites.net'),
     'eastus',
-    'returns "eastus" when a cookie is set on the invincible-app-jwiegm-eastus.azurewebsites.net domain.'
+    'returns "eastus" when the host is "invincible-app-jwiegm-eastus.azurewebsites.net".'
   )
 
   t.equal(
-    getServerLocation({
-      io: 'x',
-      'invincible-app-jwiegm-uk.azurewebsites.net': 'y'
-    }),
+    getServerLocation('invincible-app-jwiegm-uk.azurewebsites.net'),
     'uk',
-    'returns "uk" when a cookie is set on the invincible-app-jwiegm-uk.azurewebsites.net domain.'
+    'returns "uk" when the host is "invincible-app-jwiegm-uk.azurewebsites.net".'
   )
 
   t.end()
