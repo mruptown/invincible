@@ -9,6 +9,12 @@ test('The getServerLocation function', t => {
   )
 
   t.equal(
+    getServerLocation('whatever'),
+    'UNKNOWN',
+    'should be "UNKNOWN" if a host is not recognized.'
+  )
+
+  t.equal(
     getServerLocation('invincible-app-jwiegm-eastus.azurewebsites.net'),
     'eastus',
     'returns "eastus" when the host is "invincible-app-jwiegm-eastus.azurewebsites.net".'
