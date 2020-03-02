@@ -1,12 +1,13 @@
 <h1 class="h1">{{title}}</h1>
 
-<div class="data-card " data-variant="boxed" data-header>
+<div class="data-card" data-variant="boxed" data-header>
   <div class="data-card-header">
     <h2 class="h2">Request Context</h2>
   </div>
   <div class="data-card-content">
     <div>
       <p>SERVER_LOCATION: {{SERVER_LOCATION}}</p>
+      {{#if FAVORITE_ANIMAL}}<p>FAVORITE_ANIMAL: {{FAVORITE_ANIMAL}}</p>{{/if}}
     </div>
   </div>
 </div>
