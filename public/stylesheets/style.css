@@ -15,7 +15,13 @@ body > .data-card {
 }
 
 .order-card {
+  background-color: #253746;
+  color: #fff;
   font-size: 1.2rem;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.order-card:nth-of-type(2n + 1) {
+  background: #374E62;
 }
