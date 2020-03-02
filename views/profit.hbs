@@ -5,7 +5,7 @@
     <h2 class="h2">Request Context</h2>
   </div>
   <div class="data-card-content">
-    <div class="ds-generic-content">
+    <div>
       <p>SERVER_LOCATION: {{SERVER_LOCATION}}</p>
     </div>
   </div>
@@ -16,14 +16,16 @@
     <h2 class="h2">Daily Revenue</h2>
   </div>
   <div class="data-card-content">
-    <div class="ds-generic-content">
+    <div>
       <p>Total Profit: ${{profit}}</p>
       <p>Previous Profit: ${{previousProfit}}</p>
       <p>Orders: {{orders.length}}</p>
-      <h3 class="h3">Orders</h3>
+      <h3 class="h3 order-headline">Orders</h3>
       {{#each orders}}
-        <p>Order ID: #{{orderid}}</p>
-        <p>Created on: {{createdOn}}</p>
+        <div class="order-card">
+          <p>Order ID: #{{orderid}}</p>
+          <p>Created on: {{createdOn}}</p>
+        </div>
       {{/each}}
     </div>
   </div>
