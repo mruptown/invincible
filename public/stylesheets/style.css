@@ -1,12 +1,32 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Responsive Icons';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Responsive Icons'),
+  url('responsive-icons.woff') format('woff'),
+  url('responsive-icons.ttf') format('ttf'),
+  url('responsive-icons.eot') format('eot')
+}
+
 body {
-  padding: 50px;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 1.4;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: #00B7FF;
+}
+
+.hackathon-header {
+  background: #253746;
+  color: #fff;
+  display: flex;
+  font-size: 2.5rem;
+  padding: 0.5em 20px;
 }
 
 body > .data-card {
