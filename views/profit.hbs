@@ -7,10 +7,10 @@
 </div>
 
 <div class="data-card" data-variant="boxed" data-header>
+  {{#if PAGE_HEADING}}
+    <h1 class="h1">{{PAGE_HEADING}}</h1>
+  {{/if}}
   <div class="data-card-header">
-    {{#if PAGE_HEADING}}
-      <h1 class="h1">{{PAGE_HEADING}}</h1>
-    {{/if}}
     <h2 class="h2">Request Context</h2>
   </div>
   <div class="data-card-content">
