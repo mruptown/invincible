@@ -44,3 +44,373 @@ body > .data-card {
 .order-card:nth-of-type(2n + 1) {
   background: #374E62;
 }
+
+.motto-wrapper {
+  padding: 30px 0;
+  position: relative;
+}
+
+.motto {
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  top: 10px;
+}
+
+@keyframes fade-in-1 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 1;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(1) {
+  animation-name: fade-in-1;
+}
+
+@keyframes fade-in-2 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 1;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(2) {
+  animation-name: fade-in-2;
+}
+
+@keyframes fade-in-3 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 1;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(3) {
+  animation-name: fade-in-3;
+}
+
+@keyframes fade-in-4 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(4) {
+  animation-name: fade-in-4;
+}
+
+@keyframes fade-in-5 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 1;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(5) {
+  animation-name: fade-in-5;
+}
+
+@keyframes fade-in-6 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 1;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(6) {
+  animation-name: fade-in-6;
+}
+
+@keyframes fade-in-7 {
+  0% {
+    opacity: 0;
+  }
+  7.1428571429% {
+    opacity: 0;
+  }
+  14.2857142857% {
+    opacity: 0;
+  }
+  21.4285714286% {
+    opacity: 0;
+  }
+  28.5714285714% {
+    opacity: 0;
+  }
+  35.7142857143% {
+    opacity: 0;
+  }
+  42.8571428571% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  57.1428571429% {
+    opacity: 0;
+  }
+  64.2857142857% {
+    opacity: 0;
+  }
+  71.4285714286% {
+    opacity: 0;
+  }
+  78.5714285714% {
+    opacity: 0;
+  }
+  85.7142857143% {
+    opacity: 0;
+  }
+  92.8571428571% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.motto:nth-child(7) {
+  animation-name: fade-in-7;
+}

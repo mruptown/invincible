@@ -12,7 +12,7 @@ router.get('/', async function (req, res, next) {
   } = everything
 
   const SERVER_LOCATION = getServerLocation(req.headers.host)
-  const PAGE_HEADING = 'Profits'
+  const SHOW_MOTTOS = false
 
   res.render('profit', {
     title: 'Profits',
@@ -21,7 +21,7 @@ router.get('/', async function (req, res, next) {
     profit,
     previousProfit,
     req,
-    PAGE_HEADING,
+    SHOW_MOTTOS,
   })
 })
 
